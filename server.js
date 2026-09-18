@@ -179,7 +179,7 @@ app.post("/generate-schedule", async (req, res) => {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        model: "deepseek/deepseek-chat-v3-0324:free",
+        model: "inclusionai/ling-3.0-flash-vl:free'",
         messages: [
           { role: "system", content: "You are a helpful assistant that organizes to-do tasks based on their stated priority and importance." },
           { role: "user", content: prompt }
